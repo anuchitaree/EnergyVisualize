@@ -1,0 +1,1 @@
+﻿dotnet add package LiveChartsCore.SkiaSharpView.WPF
