@@ -4,22 +4,36 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EnergyVisualize.Views"
+        xmlns:vm="clr-namespace:EnergyVisualize.ViewModels"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     
     <Window.DataContext>
-        <vm:MainViewModel xmlns:vm="clr-namespace:EnergyVisualize.ViewModels"/>
+        <vm:MainViewModel/>
     </Window.DataContext>
+    
     <DockPanel>
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
-            <Button Content="Usage Energy" 
-             Width="100"
-             Height="30"
-             Command="{Binding ShowUsageEnergyCommand}"/>
-            <Button Content="Summary Energy" 
-             Width="100" 
-             Height="30" 
-             Command="{Binding ShowPowerPeakCommand}"/>
+            <ToolBarTray>
+                <ToolBar>
+                    
+                <Button
+                 Width="60"
+                 Height="30"
+                 Command="{Binding ShowUsageEnergyCommand}">
+                        <Image Width="40"
+                           Source="D:\Project\EnergyVisualize\Images\OIP.webp" /> 
+                    </Button>
+                    <Separator/>
+                    <Button  
+                    Width="60" 
+                    Height="30" 
+                    Command="{Binding ShowPowerPeakCommand}">
+                        <Image Width="40"
+                            Source="D:\Project\EnergyVisualize\Images\watermelon.webp" /> 
+                    </Button>
+                </ToolBar>
+            </ToolBarTray>
         </StackPanel>
         <ContentControl Content="{Binding CurrentView}"
                  Background="Aqua"/>

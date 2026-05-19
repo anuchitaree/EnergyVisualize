@@ -51,6 +51,10 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.142, )"
+            },
             "ScottPlot.WPF": {
               "target": "Package",
               "version": "[5.1.58, )"

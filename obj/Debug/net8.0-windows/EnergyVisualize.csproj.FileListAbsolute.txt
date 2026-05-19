@@ -4,6 +4,7 @@ D:\Project\EnergyVisualize\bin\Debug\net8.0-windows\EnergyVisualize.runtimeconfi
 D:\Project\EnergyVisualize\bin\Debug\net8.0-windows\EnergyVisualize.dll
 D:\Project\EnergyVisualize\bin\Debug\net8.0-windows\EnergyVisualize.pdb
 D:\Project\EnergyVisualize\bin\Debug\net8.0-windows\HarfBuzzSharp.dll
+D:\Project\EnergyVisualize\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
 D:\Project\EnergyVisualize\bin\Debug\net8.0-windows\OpenTK.Audio.OpenAL.dll
 D:\Project\EnergyVisualize\bin\Debug\net8.0-windows\OpenTK.Compute.dll
 D:\Project\EnergyVisualize\bin\Debug\net8.0-windows\OpenTK.Core.dll
@@ -56,6 +57,7 @@ D:\Project\EnergyVisualize\bin\Debug\net8.0-windows\runtimes\win-arm64\native\li
 D:\Project\EnergyVisualize\bin\Debug\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
 D:\Project\EnergyVisualize\bin\Debug\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\EnergyVisualize.csproj.AssemblyReference.cache
+D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\MainWindowxxx.g.cs
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\Views\PowerPeakView.g.cs
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\Views\UsageEnergyView.g.cs
@@ -63,6 +65,7 @@ D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\App.g.cs
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\EnergyVisualize_MarkupCompile.cache
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\EnergyVisualize_MarkupCompile.lref
+D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\MainWindowxxx.baml
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\Views\MainWindow.baml
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\Views\PowerPeakView.baml
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\Views\UsageEnergyView.baml
@@ -78,5 +81,3 @@ D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\refint\EnergyVisualize.dll
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\EnergyVisualize.pdb
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\EnergyVisualize.genruntimeconfig.cache
 D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\ref\EnergyVisualize.dll
-D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\MainWindowxxx.g.cs
-D:\Project\EnergyVisualize\obj\Debug\net8.0-windows\MainWindowxxx.baml

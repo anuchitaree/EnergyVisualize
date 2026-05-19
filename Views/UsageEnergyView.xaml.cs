@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EnergyVisualize.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,13 @@ namespace EnergyVisualize.Views
         public UsageEnergyView()
         {
             InitializeComponent();
+
+            DataContext = new UsageEnergyViewModel();
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Checkbox is checked!");
         }
     }
 }

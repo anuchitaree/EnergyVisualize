@@ -112,6 +112,22 @@
           }
         }
       },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.142": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "OpenTK/4.9.4": {
         "type": "package",
         "dependencies": {
@@ -656,6 +672,28 @@
         "runtimes/win-x86/native/libHarfBuzzSharp.dll"
       ]
     },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.142": {
+      "sha512": "c47wA/8GHiQ9w+O6+mdqrZhZrxHogx2/fSZyRKL9tz0k+ypoTiwOx6fID0X3jr5LnCazJbCk7KiAcL0zVnNgNA==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.142",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Design/Microsoft.Xaml.Behaviors.Design.dll",
+        "lib/net462/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net462/Microsoft.Xaml.Behaviors.dll",
+        "lib/net462/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net462/Microsoft.Xaml.Behaviors.xml",
+        "lib/net8.0-windows7.0/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net8.0-windows7.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/net8.0-windows7.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net8.0-windows7.0/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.1.142.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
     "OpenTK/4.9.4": {
       "sha512": "fp9ZI6akO4ZuIGzuUE0QRU5zRJhXbSXa5racehFoTdvodhRDecXCOcH68mRsZaMwnxLO9ECnf2LGM9BmiJKvhw==",
       "type": "package",
@@ -1133,6 +1171,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "Microsoft.Xaml.Behaviors.Wpf >= 1.1.142",
       "ScottPlot.WPF >= 5.1.58"
     ]
   },
@@ -1187,6 +1226,10 @@
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
         "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": {
+            "target": "Package",
+            "version": "[1.1.142, )"
+          },
           "ScottPlot.WPF": {
             "target": "Package",
             "version": "[5.1.58, )"
